@@ -1,0 +1,3 @@
+[submodule "CRATE"]
+	path = CRATE
+	url = https://github.com/Ma-Lab-Berkeley/CRATE.git

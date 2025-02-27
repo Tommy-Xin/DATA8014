@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+author: Fung Ho kit and Xin Cheng
 # 1D Visual Tokenization and Generation
 
 This repo hosts the code and models for the following projects:

@@ -85,3 +85,5 @@ If you use our work in your research, please use the following BibTeX entry.
 =======
 # DATA8014
 >>>>>>> ab75e79803a3be1b12e9864d20763ca7dfbc8ba0
+for our code the training stage code is stored in the folder configs/training
+the model architecture code is stored in the folder modeling_vid

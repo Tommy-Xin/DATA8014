@@ -15,3 +15,7 @@ wandb
 torch-fidelity
 torchinfo
 webdataset
+os
+numpy
+imagenet_classes
+IPython

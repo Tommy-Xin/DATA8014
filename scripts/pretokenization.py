@@ -30,7 +30,8 @@ import torch
 import torch.backends.cudnn as cudnn
 import torchvision.transforms as transforms
 import torchvision.datasets as datasets
-
+import sys
+sys.path.append('/autofs/bal34/cxin/DATA8014/DATA8014')
 from utils.train_utils import PretrainedTokenizer
 import utils.misc as misc
 from tqdm import tqdm

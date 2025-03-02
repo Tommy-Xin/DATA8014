@@ -161,7 +161,8 @@ class TiTok(BaseModel, PyTorchModelHubMixin, tags=["arxiv:2406.07550", "image-to
 
     def encode(self, x):
         if self.finetune_decoder:
-            with torch.w():
+            with torch.no_grad():
+            #with torch.w():
                 self.encoder.eval()
                 self.quantize.eval()
                 z = self.encoder(pixel_values=x, latent_tokens=self.latent_tokens)

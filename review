@@ -7,16 +7,20 @@ evaluator:
 hug:
 modeling:
 modeling_vid: the maskgit, rar, titok_vid, titok module, needing more analysis
-scripts:
-titok_b_128_stage1_run:
+scripts: the python file for the training , train_maskgit.py, train_titok.py, train_rar.py are included, 
+titok_b_128_stage1_run: the training log and the config parameter for the training.
 useless:
 utils:
-1.ipynb:
-1.py:
-2.py:
+1.ipynb: the demo for our model
+1.py: tokenizer and record the time used in the training
+2.py: tokenizer and record the time used in the training
 demo_util.py:
-imagenet_classes.py:
+imagenet_classes.py: the mapping from the number to the specific object
 jusjus.md:
 requirements.txt:
 sample_imagenet_rar:
 sample_imagenet_titok:
+
+
+the most important part:
+assets, configs, data, titok_b_128_stage1_run, wandb, scripts, 1.ipynb, 1.py, 2.py, sample_imagenet_rar.py, sample_imagenet_titok.py, wandb
